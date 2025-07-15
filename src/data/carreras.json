@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Ingeniería en Software",
+    "facultad": "Facultad de Ingeniería",
+    "descripcion": "Formación en desarrollo de software y sistemas.",
+    "imagen": "https://concepto.de/wp-content/uploads/2015/03/software-1-e1550080087611-800x400.jpg"
+  },
+  {
+    "nombre": "Ingeniería Mecatrónica",
+    "facultad": "Facultad de Mecánica",
+    "descripcion": "Diseño de sistemas mecatrónicos y automatización.",
+    "imagen": "https://www.tecazuay.edu.ec/wp-content/uploads/2023/09/ingenieria-mecatronica-1.gif"
+  },
+  {
+    "nombre": "Biotecnología",
+    "facultad": "Facultad de Ciencias de la Vida",
+    "descripcion": "Aplicación de tecnologías a procesos biológicos.",
+    "imagen": "https://killky.com/wp-content/uploads/2023/08/Biotecnologia-y-Medicina-900x500.webp"
+  },
+  {
+    "nombre": "Ingeniería en Petroquímica",
+    "facultad": "Facultad de Energía",
+    "descripcion": "Procesos químicos aplicados a la industria petrolera.",
+    "imagen": "https://micarrerauniversitaria.com/wp-content/uploads/2018/02/ingenieria-petroquimica-1.jpg"
+  }
+]

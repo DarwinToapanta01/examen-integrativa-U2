@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examen integrativa</title>
+</head>
+
+<body>
+    <h1>Carreras ESPE</h1>
+    <career-selector></career-selector>
+    <career-card></career-card>
+
+    <script>
+        const selector = document.querySelector('career-selector');
+        const card = document.querySelector('career-card');
+
+        selector.addEventListener('career-selected', (event) => {
+            card.career = event.detail;
+        });
+    </script>
+</body>
+
+</html>
