@@ -14,34 +14,9 @@ export class CareerCard extends LitElement {
     }
 
     static styles = css`
-    .card {
-      border: 2px solid var(--border-color);
-      border-radius: 10px;
-      max-width: 400px;
-      overflow: hidden;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    }
-    .header {
-      background-color: var(--header-bg);
-      color: var(--text-color);
-      padding: 1rem;
-      font-size: 1.2rem;
-    }
-    .content {
-      padding: 1rem;
-    }
-    img {
-      width: 100%;
-      height: auto;
-    }
   `;
 
     updated() {
-        if (this.theme) {
-            this.style.setProperty('--border-color', this.theme.border);
-            this.style.setProperty('--header-bg', this.theme.headerBg);
-            this.style.setProperty('--text-color', this.theme.textColor);
-        }
     }
 
     render() {
